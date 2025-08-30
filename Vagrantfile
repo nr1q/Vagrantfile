@@ -162,7 +162,7 @@ Vagrant.configure("2") do |config|
   # Provision MongoDB
   config.vm.provision "mongodb", type: "shell",
     env: {"DEBIAN_FRONTEND" => "noninteractive"},
-    path: "#{resources_url}/mongodb.sh", args: [mongo_version, mongo_enable_remote, php_version]
+    path: "#{resources_url}/mongodb.sh", args: [mongo_enable_remote, mongo_version, php_version]
 
 
   ####
