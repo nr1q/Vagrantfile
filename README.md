@@ -1,6 +1,6 @@
 # Vagrant Web Development Environment
 
-A Vagrant-powered virtual machine for a robust and customizable local web development environment. This box provisions an Ubuntu 22.04 (Jammy Jellyfish) server with a full suite of common development tools, including Apache, multiple PHP versions, MariaDB, MongoDB, Node.js, and more.
+A Vagrant-powered virtual machine for a robust and customizable local web development environment. This box provisions an Ubuntu 22.04 (Jammy Jellyfish) server with a full suite of common development tools, including Apache, multiple PHP versions, MariaDB, MongoDB, Node.js, and more. This project is inspired on [Vaprobash by Chris Fidao](https://github.com/fideloper/Vaprobash)
 
 ## 📋 Prerequisites
 
